@@ -367,6 +367,8 @@ const MENU_CATEGORIES = [
 ];
 
 // ─── STATE ─────────────────────────────────────────────────────────────────
+const RESTAURANT_WHATSAPP = '201000011205';
+
 let cart = {};
 let cartNotes = {};
 let currentStep = 1;
@@ -728,7 +730,60 @@ async function placeOrder() {
     order.id = orderId;
     sessionStorage.setItem('bs_order', JSON.stringify(order));
     sessionStorage.removeItem('bs_cart');
+
+    // Send WhatsApp notification to restaurant
+    sendWhatsAppOrderNotification(order);
+
     window.location.href = `receipt.html?orderId=${orderId}`;
+}
+
+// ─── WHATSAPP ORDER NOTIFICATION ──────────────────────────────────────────
+function sendWhatsAppOrderNotification(order) {
+    const shortId = order.shortId || (order.id ? order.id.slice(-8).toUpperCase() : '—');
+
+    const itemsText = (order.items || []).map(i =>
+        `  • ${i.name}${i.note ? ` (${i.note})` : ''} x${i.qty} = EGP ${i.subtotal}`
+    ).join('\n');
+
+    const PAYMENT_LABELS = { cash: 'Cash on Delivery', card: 'Card on Delivery', instapay: 'InstaPay', vodafone: 'Vodafone Cash' };
+    const paymentLabel = PAYMENT_LABELS[order.paymentMethod] || order.paymentMethod || '—';
+
+    let locationLine = '';
+    if (order.lat && order.lng) {
+        locationLine = `\n📍 Location: https://maps.google.com/?q=${order.lat},${order.lng}`;
+    }
+
+    let discountLine = '';
+    if (order.discount > 0) {
+        discountLine = `\n  Discount: -EGP ${order.discount}`;
+    }
+
+    let landmarkLine = order.customerLandmark ? `\n  Landmark: ${order.customerLandmark}` : '';
+    let notesLine = order.orderNotes ? `\n  Notes: ${order.orderNotes}` : '';
+
+    const msg =
+`🛒 *New Order #${shortId}*
+
+👤 *Customer*
+  Name: ${order.customerName || '—'}
+  Phone: ${order.customerPhone || '—'}
+  Address: ${order.customerAddress || '—'}${landmarkLine}${locationLine}${notesLine}
+
+🍽️ *Items*
+${itemsText}
+
+💰 *Totals*
+  Subtotal: EGP ${order.subtotal || 0}
+  Delivery: EGP ${order.deliveryFee || 0}${discountLine}
+  *Total: EGP ${order.total || 0}*
+
+💳 Payment: ${paymentLabel}
+⏱️ ETA: ~${order.estimatedMinutes || 45} min`;
+
+    const waWindow = window.open(`https://wa.me/${RESTAURANT_WHATSAPP}?text=${encodeURIComponent(msg)}`, '_blank');
+    if (!waWindow) {
+        showToast('Please allow popups to send the order notification via WhatsApp.', 'error');
+    }
 }
 
 // ─── TOAST ────────────────────────────────────────────────────────────────
