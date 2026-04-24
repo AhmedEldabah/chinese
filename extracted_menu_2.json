@@ -1,0 +1,306 @@
+﻿{
+    "items":  [
+                  {
+                      "id":  "3015039227",
+                      "name":  "Spicy Fried Noodles",
+                      "categoryId":  "-1",
+                      "description":  "Salty, garlic sprouts + leafy greens + dried chili peppers + beef",
+                      "price":  360,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/نودلز_مقليه_حاره639105798331759837.jpg"
+                  },
+                  {
+                      "id":  "3015039248",
+                      "name":  "Sweet and Sour Chicken",
+                      "categoryId":  "-1",
+                      "description":  "Sweet and Savory Chicken Breasts",
+                      "price":  490,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/دجاج_حلو_و_حامض639105801149130270.jpg"
+                  },
+                  {
+                      "id":  "3015039225",
+                      "name":  "Seasoned Beef with Celery",
+                      "categoryId":  "-1",
+                      "description":  "Sweet + Salty + Aromatic + Spicy + Beef + Celery",
+                      "price":  590,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/لحم_بقرى_متبل_مع_الكرفس639105801736784679.jpg"
+                  },
+                  {
+                      "id":  "3015039228",
+                      "name":  "Beef Fried Noodles",
+                      "categoryId":  "-1",
+                      "description":  "Beef with Chinese cabbage, onion, green pepper, red pepper, zucchini, and mixed vegetables",
+                      "price":  340,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/نودلز_مقليه_باللحم_البقرى639105798477967802.jpg"
+                  },
+                  {
+                      "id":  "3015039242",
+                      "name":  "Boiled Loog Din Dumpling with Beef",
+                      "categoryId":  "-1",
+                      "description":  "Fresh and rich in juice + beef + onion + Chinese cabbage",
+                      "price":  330,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/دامبلينغ_لونغ_دينغ_المسلو639105799582332059.jpg"
+                  },
+                  {
+                      "id":  "3015039224",
+                      "name":  "Noodles with Pickled Cabbage and Beef",
+                      "categoryId":  "-1",
+                      "description":  "Sour, Spicy, Pickled Cabbage + Beef",
+                      "price":  370,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/نودلز_بالكرمب_المخلل_ولحم639105798089495206.jpg"
+                  },
+                  {
+                      "id":  "3015039224",
+                      "name":  "Noodles with Pickled Cabbage and Beef",
+                      "categoryId":  "20482957",
+                      "description":  "Sour, Spicy, Pickled Cabbage + Beef",
+                      "price":  370,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/نودلز_بالكرمب_المخلل_ولحم639105798089495206.jpg"
+                  },
+                  {
+                      "id":  "3015039226",
+                      "name":  "Noodles with Fried Beef and Black Mushrooms",
+                      "categoryId":  "20482957",
+                      "description":  "Salty beef with tomatoes, black mushrooms, onions, green and red peppers",
+                      "price":  400,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/نودلز_مع_اللحم_البقرى_الم639105798217121375.jpg"
+                  },
+                  {
+                      "id":  "3015039227",
+                      "name":  "Spicy Fried Noodles",
+                      "categoryId":  "20482957",
+                      "description":  "Salty, garlic sprouts + leafy greens + dried chili peppers + beef",
+                      "price":  360,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/نودلز_مقليه_حاره639105798331759837.jpg"
+                  },
+                  {
+                      "id":  "3015039228",
+                      "name":  "Beef Fried Noodles",
+                      "categoryId":  "20482957",
+                      "description":  "Beef with Chinese cabbage, onion, green pepper, red pepper, zucchini, and mixed vegetables",
+                      "price":  340,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/نودلز_مقليه_باللحم_البقرى639105798477967802.jpg"
+                  },
+                  {
+                      "id":  "3015039230",
+                      "name":  "Vegetarian Fried Noodles",
+                      "categoryId":  "20482957",
+                      "description":  "Salted Chinese cabbage + onion + zucchini + green pepper + red pepper",
+                      "price":  290,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/نودلز_مقليه_نباتيه639105798628523623.jpg"
+                  },
+                  {
+                      "id":  "3015039231",
+                      "name":  "Beef Curry Fried Noodles",
+                      "categoryId":  "20482957",
+                      "description":  "Salty + Curry Flavor + Beef + Green Pepper + Red Pepper + Onion + Curry + Noodles",
+                      "price":  340,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/نودلز_مقليه_باللحم_البقرى639105798494111277.jpg"
+                  },
+                  {
+                      "id":  "3015039241",
+                      "name":  "Boiled Loog Din Vegetarian Dumplings",
+                      "categoryId":  "20482962",
+                      "description":  "Fresh and rich in juice with Chinese chives, eggs, and black mushrooms",
+                      "price":  330,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/دامبلينغ_لونغ_دينغ_النبات639105799171241515.jpg"
+                  },
+                  {
+                      "id":  "3015039242",
+                      "name":  "Boiled Loog Din Dumpling with Beef",
+                      "categoryId":  "20482962",
+                      "description":  "Fresh and rich in juice + beef + onion + Chinese cabbage",
+                      "price":  330,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/دامبلينغ_لونغ_دينغ_المسلو639105799582332059.jpg"
+                  },
+                  {
+                      "id":  "3015039243",
+                      "name":  "Fried Loog Din Dumpling with Beef",
+                      "categoryId":  "20482962",
+                      "description":  "Fresh and rich in juice + beef + onion + Chinese cabbage",
+                      "price":  360,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/دامبلينغ_لونغ_دينغ_النبات639105799316143833.jpg"
+                  },
+                  {
+                      "id":  "3015039244",
+                      "name":  "Vegetable Fried Dumpling Loog Din",
+                      "categoryId":  "20482962",
+                      "description":  "Chinese chives with eggs and black mushrooms",
+                      "price":  330,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/دامبلينغ_لونغ_دينغ_النبات639105800157247106.jpg"
+                  },
+                  {
+                      "id":  "3015039220",
+                      "name":  "Loog Din Fried Rice with Beef and Mushrooms",
+                      "categoryId":  "20482958",
+                      "description":  "Salty beef with mushrooms",
+                      "price":  400,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/ارز_لونغ_دينغ_المقلى_مع_ا639105800402993461.jpg"
+                  },
+                  {
+                      "id":  "3015039221",
+                      "name":  "Yangzhou Fried Rice",
+                      "categoryId":  "20482958",
+                      "description":  "Salty, green peas + eggs + carrots",
+                      "price":  400,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/ارز_يانغشو_المقلى639105800592572491.jpg"
+                  },
+                  {
+                      "id":  "3015039223",
+                      "name":  "Curry Rice with White Meat",
+                      "categoryId":  "20482958",
+                      "description":  "Curry flavor + beef + vegetables",
+                      "price":  460,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/ارز_بالكارى_مع_اللحم_و_ال639105800669354682.jpg"
+                  },
+                  {
+                      "id":  "3015039245",
+                      "name":  "Yu Xiang Fried Chicken",
+                      "categoryId":  "20482963",
+                      "description":  "Salty, Sweet, Spicy Chicken Strips with Carrots, Green Peppers, and Black Mushrooms",
+                      "price":  460,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/دجاج_يو_شيانغ_المقلى639105800817964516.jpg"
+                  },
+                  {
+                      "id":  "3015039246",
+                      "name":  "Kung Pao Chicken",
+                      "categoryId":  "20482963",
+                      "description":  "Sour, sweet, spicy. Chicken + cucumber + carrot",
+                      "price":  460,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/دجاج_كونغ_باو639105800928845517.jpg"
+                  },
+                  {
+                      "id":  "3015039247",
+                      "name":  "Crispy Fried Long Ding Chicken Pieces",
+                      "categoryId":  "20482963",
+                      "description":  "Spicy Chicken with Chili Pepper",
+                      "price":  700,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/قطع_دجاج_لونغ_دينغ_المقلي639105801057056358.jpg"
+                  },
+                  {
+                      "id":  "3015039248",
+                      "name":  "Sweet and Sour Chicken",
+                      "categoryId":  "20482963",
+                      "description":  "Sweet and Savory Chicken Breasts",
+                      "price":  490,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/دجاج_حلو_و_حامض639105801149130270.jpg"
+                  },
+                  {
+                      "id":  "3015039222",
+                      "name":  "Fried Beef",
+                      "categoryId":  "20482959",
+                      "description":  "Aromatic, spicy, salty beef with coriander",
+                      "price":  520,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/لحم_بقرى_مقلى639105801596081393.jpg"
+                  },
+                  {
+                      "id":  "3015039225",
+                      "name":  "Seasoned Beef with Celery",
+                      "categoryId":  "20482959",
+                      "description":  "Sweet + Salty + Aromatic + Spicy + Beef + Celery",
+                      "price":  590,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/لحم_بقرى_متبل_مع_الكرفس639105801736784679.jpg"
+                  },
+                  {
+                      "id":  "3015039229",
+                      "name":  "Beef cooked with Rice",
+                      "categoryId":  "20482959",
+                      "description":  "Salted Beef with Eggs and Vegetables",
+                      "price":  400,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/لحم_بقر_مطهو_مع_الأرز639105801911956360.jpg"
+                  },
+                  {
+                      "id":  "3015039236",
+                      "name":  "Dry fried potato slices",
+                      "categoryId":  "20482960",
+                      "description":  "Salty Potatoes with Bell Peppers and Onions",
+                      "price":  360,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/شرائح_البطاطس_المقليه_الج639105802058951905.jpg"
+                  },
+                  {
+                      "id":  "3015039237",
+                      "name":  "Dry Fried Cauliflower",
+                      "categoryId":  "20482960",
+                      "description":  "Salty Cauliflower with Bell Pepper and Onions",
+                      "price":  290,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/قرنبيط_مقلى_جاف639105802180366799.jpg"
+                  },
+                  {
+                      "id":  "3015039238",
+                      "name":  "Tofu Dry Fry",
+                      "categoryId":  "20482960",
+                      "description":  "Salted + Tofu + Bell Pepper + Onion",
+                      "price":  360,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/توفو_مقلى_جاف639105802315516501.jpg"
+                  },
+                  {
+                      "id":  "3015039239",
+                      "name":  "Horn Eggs with Hot Pepper",
+                      "categoryId":  "20482960",
+                      "description":  "Salty and spicy, horned eggs + green pepper ",
+                      "price":  490,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/بيض_القرن_بالفلفل_الحار639105802405365059.jpg"
+                  },
+                  {
+                      "id":  "3015039240",
+                      "name":  "Aromatic Spinach with Nuts",
+                      "categoryId":  "20482960",
+                      "description":  "Salt + Spinach + Nuts",
+                      "price":  370,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/سبانخ_عطريه_بالمكسرات639105802517578817.jpg"
+                  },
+                  {
+                      "id":  "3015039232",
+                      "name":  "Mango Fruit Tea",
+                      "categoryId":  "20482961",
+                      "description":  "Mango + Lemon + Green Tea + Mango Juice",
+                      "price":  190,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/شاى_فواكه_بالمانجو639105802752367361.jpg"
+                  },
+                  {
+                      "id":  "3015039233",
+                      "name":  "Strawberry Milk",
+                      "categoryId":  "20482961",
+                      "description":  "Strawberry jam + strawberry sauce + whipped cream",
+                      "price":  180,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/حليب_بالفراوله639105802900371427.jpg"
+                  },
+                  {
+                      "id":  "3015039234",
+                      "name":  "Strawberry Seltzer Water",
+                      "categoryId":  "20482961",
+                      "description":  "Sour + Sweet + Strawberry + Lemon + Seltzer Water",
+                      "price":  170,
+                      "image":  "https://images.deliveryhero.io/image/talabat/MenuItems/مياه_غازيه_بالفراوله639105803006623607.jpg"
+                  }
+              ],
+    "categories":  [
+                       {
+                           "id":  "20482957",
+                           "name":  "Noodles"
+                       },
+                       {
+                           "id":  "20482962",
+                           "name":  "Dumpling"
+                       },
+                       {
+                           "id":  "20482958",
+                           "name":  "Rice"
+                       },
+                       {
+                           "id":  "20482963",
+                           "name":  "Chicken"
+                       },
+                       {
+                           "id":  "20482959",
+                           "name":  "Meat"
+                       },
+                       {
+                           "id":  "20482960",
+                           "name":  "Appetizers"
+                       },
+                       {
+                           "id":  "20482961",
+                           "name":  "Drinks"
+                       }
+                   ]
+}
